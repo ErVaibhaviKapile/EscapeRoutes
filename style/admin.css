@@ -1,0 +1,115 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.admin-panel {
+    display: flex;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+}
+
+.sidebar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar ul li {
+    margin: 20px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.sidebar ul li a:hover {
+    background-color: #0055cc;
+    border-radius: 5px;
+}
+
+
+
+.content-section {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.content-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #003366;
+}
+
+.content-section p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.content-section a {
+    background-color: #003366;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.content-section a:hover {
+    background-color: #0055cc;
+}
+
+.content-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.content-section table th, .content-section table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.content-section table th {
+    background-color: #003366;
+    color: white;
+}
+
+.content-section table td a {
+    color: #003366;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.content-section table td a:hover {
+    text-decoration: underline;
+}
